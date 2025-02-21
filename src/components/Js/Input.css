@@ -1,0 +1,17 @@
+.input {
+    height: 10em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    padding: 16px;
+}
+
+.result {
+    font-size: 18px;
+}
+
+.text {
+    font-size: 18px;
+}
