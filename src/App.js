@@ -11,7 +11,7 @@ const App = () => {
   const [result, setResult] = useState("");
    const [isDarkMode, setIsDarkMode] = useState(false); // Theme state
 
-   const isOperator = (char) => ["+", "-", "*", "÷"].includes(char);
+   const isOperator = (char) => ["+", "-", "×", "÷"].includes(char);
 
      useEffect(() => {
     document.body.style.backgroundColor = isDarkMode ? "black" : "white";
